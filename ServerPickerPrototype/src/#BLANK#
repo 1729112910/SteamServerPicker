@@ -1,0 +1,42 @@
+
+	let mut us_west = Region_Info
+
+	let mut us_south_west = Region_Info
+
+
+	let mut brazil = Region_Info
+;
+	let mut chile = Region_Info
+;
+	let mut peru = Region_Info
+;
+
+	let mut korea = Region_Info
+;
+	let mut singapore = Region_Info
+;
+	let mut india = Region_Info
+;
+	let mut japan = Region_Info
+;
+	let mut hong_kong = Region_Info
+;
+
+	let mut south_africa = Region_Info
+;
+
+	let mut australia = Region_Info
+;
+
+	let mut poland = Region_Info
+;
+	let mut spain = Region_Info
+;
+	let mut eu_east = Region_Info
+;
+	let mut eu_north = Region_Info
+;
+	let mut eu_west = Region_Info
+;
+
+	let mut dubai = Region_Info

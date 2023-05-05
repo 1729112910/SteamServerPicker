@@ -1,0 +1,127 @@
+
+	let mut us_east = Region_Info
+	{
+	    region: String::from("USEast"),
+	    ips: String::from("162.254.192.0-162.254.192.255,208.78.164.0-208.78.164.255,208.78.165.0-208.78.165.255,208.78.166.0-208.78.166.255"),
+	    enabled: *is_enabled(&String::from("USEast"))
+	};
+	let mut us_south_east = Region_Info
+	{
+	    region: String::from("USSouthEast"),
+	    ips: String::from("155.133.234.0-155.133.234.255,162.254.199.0-162.254.199.255"),
+	    enabled: *is_enabled(&String::from("USSouthEast"))
+	};
+	let mut us_west = Region_Info
+	{
+	    region: String::from("USWest"),
+	    ips: String::from("192.69.96.0-192.69.96.255,192.69.97.0-192.69.97.255,205.196.6.0-205.196.6.255"),
+	    enabled: *is_enabled(&String::from("USWest"))
+	};
+	let mut us_south_west = Region_Info
+	{
+	    region: String::from("USSouthWest"),
+	    ips: String::from("162.254.194.0-162.254.194.255"),
+	    enabled: *is_enabled(&String::from("USSouthWest"))
+	};
+
+	let mut brazil = Region_Info
+	{
+	    region: String::from("Brazil"),
+	    ips: String::from("155.133.224.0-155.133.224.25,155.133.225.0-155.133.225.255,155.133.249.0-155.133.249.255,205.185.194.0-205.185.194.255,209.197.25.0-209.197.25.255,209.197.29.0-209.197.29.255"),
+	    enabled: *is_enabled(&String::from("Brazil"))
+	};
+	let mut chile = Region_Info
+	{
+	    region: String::from("Chile"),
+	    ips: String::from("155.133.249.0-155.133.249.255"),
+	    enabled: *is_enabled(&String::from("Chile"))
+	};
+	let mut peru = Region_Info
+	{
+	    region: String::from("Peru"),
+	    ips: String::from("143.137.146.0-143.137.146.255,190.216.121.0-190.216.121.255"),
+	    enabled: *is_enabled(&String::from("Peru"))
+	};
+
+	let mut korea = Region_Info
+	{
+	    region: String::from("Seoul"),
+	    ips: String::from("146.66.152.0-146.66.152.255"),
+	    enabled: *is_enabled(&String::from("Seoul"))
+	};
+	let mut singapore = Region_Info
+	{
+	    region: String::from("Singapore"),
+	    ips: String::from("45.121.184.0-45.121.184.255,45.121.185.0-45.121.185.255,10.156.7.0-10.156.7.255,103.28.54.0-103.28.54.255,103.28.55.0-103.28.55.255,103.10.124.0-103.10.124.255"),
+	    enabled: *is_enabled(&String::from("Singapore"))
+	};
+	let mut india = Region_Info
+	{
+	    region: String::from("India"),
+	    ips: String::from("10.130.205.0-10.130.205.255,45.113.191.0-45.113.191.255,116.202.224.0-116.202.224.255,155.133.232.0-155.133.232.255,155.133.233.0-155.133.233.255,180.149.41.0-180.149.41.255,182.79.252.0-182.79.252.255"),
+	    enabled: *is_enabled(&String::from("India"))
+	};
+	let mut japan = Region_Info
+	{
+	    region: String::from("Tokyo"),
+	    ips: String::from("45.121.184.0-45.121.184.255,45.121.186.0-45.121.186.255,45.121.187.0-45.121.187.255,61.14.157.0-61.14.157.255,146.66.152.0-146.66.152.255,155.133.239.0-155.133.239.255,155.133.245.0-155.133.245.255"),
+	    enabled: *is_enabled(&String::from("Tokyo"))
+	};
+	let mut hong_kong = Region_Info
+	{
+	    region: String::from("HongKong"),
+	    ips: String::from("103.28.54.0-103.28.54.255,155.133.244.0-155.133.244.255,153.254.86.0-153.254.86.255"),
+	    enabled: *is_enabled(&String::from("HongKong"))
+	};
+
+	let mut south_africa = Region_Info
+	{
+	    region: String::from("SouthAfrica"),
+	    ips: String::from("152.111.192.0-152.111.192.255,155.133.238.0-155.133.238.255,196.38.180.0-196.38.180.255,197.80.4.0-197.80.4.255,197.80.200.0-197.80.200.255,197.84.209.0-197.84.209.255"),
+	    enabled: *is_enabled(&String::from("SouthAfrica"))
+	};
+
+	let mut australia = Region_Info
+	{
+	    region: String::from("Sydney"),
+	    ips: String::from("103.10.125.0-103.10.125.255,203.50.6.0-203.50.6.255"),
+	    enabled: *is_enabled(&String::from("Sydney"))
+	};
+
+	let mut poland = Region_Info
+	{
+	    region: String::from("Poland"),
+	    ips: String::from("155.133.228.0-155.133.228.255,155.133.229.0-155.133.229.255,155.133.230.0-155.133.230.255,155.133.240.0-155.133.240.255,155.133.241.0-155.133.241.255,155.133.242.0-155.133.242.255,155.133.243.0-155.133.243.255"),
+	    enabled: *is_enabled(&String::from("Poland"))
+	};
+	let mut spain = Region_Info
+	{
+	    region: String::from("Spain"),
+	    ips: String::from("155.133.246.0-155.133.246.255,155.133.247.0-155.133.247.255"),
+	    enabled: *is_enabled(&String::from("Spain"))
+	};
+	let mut eu_east = Region_Info
+	{
+	    region: String::from("EUEast"),
+	    ips: String::from("146.66.155.0-146.66.155.255,185.25.182.0-185.25.182.255"),
+	    enabled: *is_enabled(&String::from("EUEast"))
+	};
+	let mut eu_north = Region_Info
+	{
+	    region: String::from("EUNorth"),
+	    ips: String::from("146.66.154.0-146.66.154.255,146.66.156.0-146.66.156.255,146.66.157.0-146.66.157.255,155.133.242.0-155.133.242.255,155.133.252.0-155.133.252.255,162.254.192.0-162.254.199.255,162.254.198.0-162.254.198.255,185.25.180.0-185.25.180.255,185.25.181.0-185.25.181.255,185.25.182.0-185.25.182.255"),
+	    enabled: *is_enabled(&String::from("EUNorth"))
+	};
+	let mut eu_west = Region_Info
+	{
+	    region: String::from("EUWest"),
+	    ips: String::from("146.66.152.0-146.66.152.255,146.66.153.0-146.66.153.255,146.66.158.0-146.66.158.255,146.66.159.0-146.66.159.255,155.133.226.0-155.133.226.255,155.133.246.0-155.133.246.255,155.133.248.0-155.133.248.255,162.254.196.0-162.254.196.255,162.254.197.0-162.254.197.255,188.42.190.0-188.42.190.255"),
+	    enabled: *is_enabled(&String::from("EUWest"))
+	};
+
+	let mut dubai = Region_Info
+	{
+	    region: String::from("Dubai"),
+	    ips: String::from("185.25.183.0-185.25.183.255"),
+	    enabled: *is_enabled(&String::from("Dubai"))
+	};

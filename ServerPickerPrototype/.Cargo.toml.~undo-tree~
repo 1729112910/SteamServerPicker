@@ -1,0 +1,18 @@
+(undo-tree-save-format-version . 1)
+"725d626748cc2757845c3939041016f1ab5afda7"
+[nil nil nil nil (25684 35442 808500 0) 0 nil]
+([nil nil ((#("1" 0 1 (fontified t face font-lock-string-face)) . -447) (undo-tree-id3 . -1) (undo-tree-id4 . -1) (#("0" 0 1 (fontified t face font-lock-string-face)) . -448) (undo-tree-id5 . -1) 449 (t 25684 34956 0 0)) nil (25684 35442 808499 0) 0 nil])
+([nil nil ((447 . 449)) nil (25684 35442 808496 0) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t face font-lock-string-face)) . -387) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (#("0" 0 1 (fontified t face font-lock-string-face)) . 388)) nil (25684 35442 808494 0) 0 nil])
+([nil nil ((387 . 389)) nil (25684 35442 808480 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 487 . 488) (nil fontified nil 453 . 488) (453 . 488) (t 25684 35903 0 0)) nil (25684 36059 909625 0) 0 nil])
+([nil nil ((#("[build-dependencies]" 0 1 (fontified t) 1 19 (face (font-lock-type-face) fontified t) 19 20 (fontified t)) . 453) (undo-tree-id2 . -20) (undo-tree-id3 . 20) (undo-tree-id4 . -1) (undo-tree-id5 . 1) (undo-tree-id6 . -20) (undo-tree-id7 . -20)) nil (25684 36059 909623 0) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . -452) (undo-tree-id0 . -1) (undo-tree-id1 . -1) 453) nil (25684 36059 909618 0) 0 nil])
+([nil nil ((466 . 469)) nil (25684 36059 909606 0) 0 nil])
+([nil nil ((72 . 73) (t 25684 36059 0 0)) nil (25684 36199 114605 0) 0 nil])
+([nil nil ((nil rear-nonsticky nil 90 . 91) (nil fontified nil 73 . 91) (73 . 91)) nil (25684 36199 114603 0) 0 nil])
+([nil nil ((#("build = \"build.rs\"" 0 5 (fontified t face font-lock-variable-name-face) 5 8 (fontified t) 8 18 (fontified t face font-lock-string-face)) . 73) (undo-tree-id4 . -18) (undo-tree-id5 . -18) (undo-tree-id6 . -18) (undo-tree-id7 . -18) (t 25684 36199 0 0)) nil (25684 39075 334085 0) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . -72) (undo-tree-id0 . -1) (undo-tree-id1 . -1) (undo-tree-id2 . -1) (undo-tree-id3 . -1) 73) nil (25684 39075 334080 0) 0 nil])
+nil
